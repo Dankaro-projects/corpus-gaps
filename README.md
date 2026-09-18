@@ -12,6 +12,14 @@ The question matters for any system that answers from documents. If a question i
 - **The threshold belongs to the corpus and the model.** The learned threshold is about 0.77 for `bge-small-en-v1.5` and about 0.59 for `all-MiniLM-L6-v2`. The library's previous default of 0.72, measured on an earlier corpus, classifies missing documents no better than chance here (56%), and is meaningless for the second model.
 - **Filtering reference lists hardly matters for retrieval.** About 18% of chunks are reference lists. Removing them changes no detection result beyond its confidence interval, and it improves the match between unsupervised clusters and the true topics only slightly.
 
+## Second study: why a missing document is hard to detect
+
+A pre-registered follow up tested an explanation on four public benchmarks (SciFact, NFCorpus, FiQA and SCIDOCS) with two embedding models: when a missing document has close neighbours in the corpus, they score almost as high and hide the gap. The plan was committed before any data was loaded (`docs/PREREGISTRATION.md`), and the results are reported against it (`docs/REDUNDANCY_STUDY.md`).
+
+- Of four pre-registered hypotheses, one failed (redundancy did not predict the drop in the best score across all combinations), two were supported (detection is harder where the corpus is more redundant, by an AUROC of 0.05; redundancy adds predictive information in 6 of 8 combinations), and the geometric bound held with no violation, though loosely.
+- On these benchmarks the best score barely reveals a missing document: detection AUROC is 0.55 to 0.69.
+- An exploratory analysis, not pre-registered, points to the reason: the best match is a relevant document for only 23% to 59% of queries, and where it is not, removing the relevant documents cannot change the best score. Among the queries where retrieval works, redundancy does predict how hidden the gap is. This is the hypothesis for the next pre-registered test.
+
 ## The corpus
 
 The corpus is built from 60 public URLs on six research topics: analytic standards in intelligence work, expert elicitation, forecasting calibration, evaluation of language models, debate between several models, and research agents. The list is in `seeds.csv`.
@@ -128,6 +136,10 @@ Removing reference lists removes one junk cluster and nudges every measure in th
 | `results/summary.json` | Every number in this README |
 | `results/scores.jsonl` | The score of every question in every condition |
 | `results/reference_rule_sample.json` | The sample used to check the reference rule by hand |
+| `docs/PREREGISTRATION.md` | The plan of the second study, committed before any data was loaded |
+| `docs/REDUNDANCY_STUDY.md` | The results of the second study against its plan |
+| `experiments/redundancy_study.py`, `experiments/redundancy_exploratory.py` | The second study and its labelled exploratory follow up |
+| `results/redundancy/` | Every per query value of the second study |
 
 ## Running it
 

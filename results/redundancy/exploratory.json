@@ -1,0 +1,102 @@
+{
+ "fiqa.bge": {
+  "queries": 648,
+  "best_match_is_relevant": 260,
+  "share_best_match_relevant": 0.401,
+  "H1_on_those_queries": -0.227,
+  "ci": [
+   -0.337,
+   -0.105
+  ]
+ },
+ "fiqa.minilm": {
+  "queries": 648,
+  "best_match_is_relevant": 223,
+  "share_best_match_relevant": 0.344,
+  "H1_on_those_queries": -0.233,
+  "ci": [
+   -0.348,
+   -0.101
+  ]
+ },
+ "first_study_corpus.bge": {
+  "queries": 39,
+  "best_match_is_relevant": 32,
+  "share_best_match_relevant": 0.821,
+  "H1_on_those_queries": -0.555,
+  "ci": [
+   -0.79,
+   -0.231
+  ]
+ },
+ "first_study_corpus.minilm": {
+  "queries": 39,
+  "best_match_is_relevant": 28,
+  "share_best_match_relevant": 0.718,
+  "H1_on_those_queries": 0.102,
+  "ci": [
+   -0.306,
+   0.473
+  ]
+ },
+ "nfcorpus.bge": {
+  "queries": 323,
+  "best_match_is_relevant": 140,
+  "share_best_match_relevant": 0.433,
+  "H1_on_those_queries": -0.215,
+  "ci": [
+   -0.354,
+   -0.065
+  ]
+ },
+ "nfcorpus.minilm": {
+  "queries": 323,
+  "best_match_is_relevant": 136,
+  "share_best_match_relevant": 0.421,
+  "H1_on_those_queries": -0.202,
+  "ci": [
+   -0.367,
+   -0.026
+  ]
+ },
+ "scidocs.bge": {
+  "queries": 1000,
+  "best_match_is_relevant": 234,
+  "share_best_match_relevant": 0.234,
+  "H1_on_those_queries": -0.116,
+  "ci": [
+   -0.251,
+   0.018
+  ]
+ },
+ "scidocs.minilm": {
+  "queries": 1000,
+  "best_match_is_relevant": 244,
+  "share_best_match_relevant": 0.244,
+  "H1_on_those_queries": -0.089,
+  "ci": [
+   -0.214,
+   0.036
+  ]
+ },
+ "scifact.bge": {
+  "queries": 300,
+  "best_match_is_relevant": 177,
+  "share_best_match_relevant": 0.59,
+  "H1_on_those_queries": -0.425,
+  "ci": [
+   -0.547,
+   -0.283
+  ]
+ },
+ "scifact.minilm": {
+  "queries": 300,
+  "best_match_is_relevant": 151,
+  "share_best_match_relevant": 0.503,
+  "H1_on_those_queries": -0.426,
+  "ci": [
+   -0.552,
+   -0.288
+  ]
+ }
+}

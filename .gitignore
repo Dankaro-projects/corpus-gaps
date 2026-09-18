@@ -5,3 +5,5 @@ __pycache__/
 .DS_Store
 results/run_stdout.txt
 results/run_stderr.txt
+data-cache/
+results/redundancy_run.log
