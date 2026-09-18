@@ -78,4 +78,4 @@ A system that answers from documents cannot rely on a low best match score to re
 
 ## Next confirmatory test
 
-To be pre-registered before any new data is used: on BEIR datasets not used here (for example TREC-COVID, HotpotQA and NQ, or subsets of them), (a) the share of queries whose best match is relevant predicts detection AUROC across datasets, and (b) among those queries, redundancy is negatively correlated with the drop in the best score.
+The exploratory finding was pre-registered in `docs/PREREGISTRATION_2.md` and confirmed on five new datasets; see `docs/CONFIRMATORY_STUDY.md`. Part (a) of the idea, that the share of answered queries drives overall detection, turned out to follow from the definitions, so it was reported as a description rather than tested.

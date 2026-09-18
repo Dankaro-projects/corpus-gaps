@@ -18,7 +18,16 @@ A pre-registered follow up tested an explanation on four public benchmarks (SciF
 
 - Of four pre-registered hypotheses, one failed (redundancy did not predict the drop in the best score across all combinations), two were supported (detection is harder where the corpus is more redundant, by an AUROC of 0.05; redundancy adds predictive information in 6 of 8 combinations), and the geometric bound held with no violation, though loosely.
 - On these benchmarks the best score barely reveals a missing document: detection AUROC is 0.55 to 0.69.
-- An exploratory analysis, not pre-registered, points to the reason: the best match is a relevant document for only 23% to 59% of queries, and where it is not, removing the relevant documents cannot change the best score. Among the queries where retrieval works, redundancy does predict how hidden the gap is. This is the hypothesis for the next pre-registered test.
+- An exploratory analysis, not pre-registered, points to the reason: the best match is a relevant document for only 23% to 59% of queries, and where it is not, removing the relevant documents cannot change the best score. Among the queries where retrieval works, redundancy does predict how hidden the gap is. That was then tested on new data.
+
+## Third study: the confirmatory test
+
+The exploratory finding was pre-registered (`docs/PREREGISTRATION_2.md`) and tested on five datasets not used before: TREC-COVID and four CQADupStack forums, with the same two models. All three hypotheses were supported (`docs/CONFIRMATORY_STUDY.md`).
+
+- Among queries whose best match is relevant, redundancy is negatively correlated with the drop in the best score in 8 of 10 combinations, with a mean correlation of −0.22. The two exceptions are TREC-COVID, which has only 50 queries.
+- Among the same queries, detection AUROC is 0.09 lower [0.064, 0.109] in the most redundant third than in the least redundant third.
+
+Across the three studies: a retrieval score can reveal a missing document only when retrieval found that document in the first place, and even then, a missing document with close neighbours in the corpus stays hidden. Redundancy depends only on the corpus, so it can be measured before any question is asked.
 
 ## The corpus
 
@@ -140,6 +149,8 @@ Removing reference lists removes one junk cluster and nudges every measure in th
 | `docs/REDUNDANCY_STUDY.md` | The results of the second study against its plan |
 | `experiments/redundancy_study.py`, `experiments/redundancy_exploratory.py` | The second study and its labelled exploratory follow up |
 | `results/redundancy/` | Every per query value of the second study |
+| `docs/PREREGISTRATION_2.md`, `docs/CONFIRMATORY_STUDY.md` | The plan and results of the confirmatory test |
+| `experiments/confirmatory_study.py`, `results/confirmatory/` | Its code and every per query value |
 
 ## Running it
 

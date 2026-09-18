@@ -7,3 +7,4 @@ results/run_stdout.txt
 results/run_stderr.txt
 data-cache/
 results/redundancy_run.log
+results/confirmatory_run.log
