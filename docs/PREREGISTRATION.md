@@ -56,3 +56,15 @@ Detection is scored as in the first study: the AUROC of s_p against s_a over all
 ## What would change the plan
 
 If a dataset cannot be downloaded or embedded within reasonable time on a laptop CPU, it is dropped, the drop is reported, and the failure thresholds scale with the number of remaining combinations (3 of 8 becomes the same proportion of the remainder, rounded up). No dataset will be dropped because of its results.
+
+## Amendment, 18 September 2026, before any data was downloaded
+
+The definition of the bound b above is wrong when a query has more than one relevant document. The inequality holds for one relevant document t at a time, but b as defined combines the best query match s_t and the highest redundancy r, which can come from two different relevant documents. That combination is not a valid lower bound, so H4 could fail for reasons of definition rather than code.
+
+Corrected definition, used in all analyses: for each relevant document t, let r_t be the highest cosine similarity between t and any document outside T. Then
+
+    b = max over t in T of [ cos(q, t)·r_t − sqrt((1 − cos²(q, t))·(1 − r_t²)) ]
+
+The inequality also requires the sum of the two angles to be at most π, which holds whenever both cosines are positive; any query where it does not hold is excluded from H4 and counted.
+
+The redundancy r used in H1 to H3 is unchanged: the highest r_t over the relevant documents. No data had been downloaded or embedded when this amendment was written.
