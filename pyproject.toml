@@ -1,0 +1,29 @@
+[project]
+name = "corpus-gaps"
+version = "0.1.0"
+description = "A research corpus pipeline, and a study of whether retrieval scores reveal what a corpus does not contain"
+requires-python = ">=3.10"
+# Core = what test_brain.py needs. Everything else is lazily imported per stage.
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+harvest = ["ddgs"]
+fetch = ["trafilatura", "pypdf"]
+embed = ["sentence-transformers", "torch"]
+analysis = ["scikit-learn"]
+answer = ["anthropic"]           # grounded answering with Claude
+all = [
+    "ddgs",
+    "trafilatura",
+    "pypdf",
+    "sentence-transformers",
+    "torch",
+    "scikit-learn",
+    "anthropic",
+]
+
+[tool.uv]
+package = false

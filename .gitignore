@@ -1,0 +1,7 @@
+corpus.db
+corpus.db-*
+__pycache__/
+.venv/
+.DS_Store
+results/run_stdout.txt
+results/run_stderr.txt

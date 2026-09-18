@@ -1,0 +1,61 @@
+url,title,cluster
+https://www.bmbs.org/salamanca/readings/ODNI_ICDs_203-206-208.pdf,"ICD 203 Analytic Standards (ODNI, via Salamanca PDF)",Analytic standards
+https://www.intelligence.gov/mission/our-values/objectivity,intelligence.gov - Objectivity / IC standards,Analytic standards
+https://policycommons.net/artifacts/18285675/analytic-standards/19186147/,ICD 203 on Policy Commons,Analytic standards
+http://alexandrumarcoci.com/ins_icd203.pdf,Is ICD 203 up to the task? (Marcoci),Analytic standards
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6330287/,Better Together - reliability of ICD203 evaluation (PMC),Analytic standards
+https://www.linkedin.com/pulse/value-icd-203-analytical-tradecraft-standards-private-eric-ford,The value of ICD 203 in the private sector,Analytic standards
+https://pangearesearch.substack.com/p/why-analytic-standards-exist,What are analytic standards and why do they exist,Analytic standards
+https://arxiv.org/pdf/1911.05727,AI strategies for national security - ICD203 mapping,Analytic standards
+https://us.sagepub.com/en-us/nam/structured-analytic-techniques-for-intelligence-analysis/book255432,Structured Analytic Techniques (Heuer & Pherson),Analytic standards
+https://academic.oup.com/policing/article-abstract/15/2/1606/6101043,SAT review in Policing journal,Analytic standards
+https://shop.globalytica.com/products/structured-analytic-techniques-for-intelligence-analysis-3rd-ed,Globalytica / Analyst's Bookshop,Analytic standards
+https://www.futuribles.com/wp-content/uploads/related-documents/analysis-of-competing-hypotheses.pdf,ACH primer (Futuribles PDF),Analytic standards
+https://pherson.org/wp-content/uploads/2013/06/06.-How-Does-ACH-Improve-Analysis_FINAL.pdf,How does ACH improve analysis (Pherson),Analytic standards
+https://onlinelibrary.wiley.com/doi/full/10.1002/acp.3550,Dhami et al - ACH in intelligence analysis (Wiley),Analytic standards
+https://www.jstor.org/stable/10.3366/j.ctv182jrtn,Cognitive bias in intelligence analysis (JSTOR),Analytic standards
+https://anticitizenone.medium.com/analysis-of-competing-hypotheses-176bd8147dbc,ACH for CTI (Medium),Analytic standards
+https://journals.sagepub.com/doi/10.1518/001872098779480442,"Hoffman, Crandall & Shadbolt - CDM (SAGE)",Expert elicitation
+https://www.semanticscholar.org/paper/Use-of-the-Critical-Decision-Method-to-Elicit-A-in-Hoffman-Crandall/ee0c190ab6c6079a648f4f8d9fd70882a9b216c8,CDM case study (Semantic Scholar),Expert elicitation
+https://www.academia.edu/103566505/Critical_decision_method_for_eliciting_knowledge,CDM for eliciting knowledge (Academia),Expert elicitation
+https://eprints.bbk.ac.uk/id/eprint/53888/contents,Cognitive Task Analysis - eliciting expert cognition in context,Expert elicitation
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8903544/,CTA in clinical and health services research (PMC),Expert elicitation
+https://www.researchgate.net/publication/294699964_Cognitive_task_analysis,Cognitive task analysis (ResearchGate),Expert elicitation
+https://researchportal.bath.ac.uk/en/publications/cognitive-task-analysis-eliciting-expert-cognition-in-context/,CTA - Bath research portal,Expert elicitation
+https://go.gale.com/ps/i.do?id=GALE%7CA21159924,CDM via Gale Academic,Expert elicitation
+https://arxiv.org/pdf/2410.02736,Justice or Prejudice - quantifying LLM judge bias,LLM evaluation
+https://arxiv.org/pdf/2410.21819,Self-preference bias in LLM-as-a-judge,LLM evaluation
+https://arxiv.org/pdf/2603.01865,CyclicJudge - mitigating judge bias,LLM evaluation
+https://arxiv.org/pdf/2606.15029,Metric Match - judge reliability via subset selection,LLM evaluation
+https://arxiv.org/pdf/2604.18164,MM-JudgeBias,LLM evaluation
+https://arxiv.org/pdf/2606.09843,Psychometric instrument across 25 models,LLM evaluation
+https://arxiv.org/pdf/2604.16706,AgentProp-Bench - judge reliability and propagation cascades,LLM evaluation
+https://futureagi.com/blog/llm-as-a-judge/,LLM-as-a-judge in 2026 - practitioner guide,LLM evaluation
+https://arxiv.org/pdf/2511.04133,Testing the testers - voice AI QA,LLM evaluation
+https://www.emergentmind.com/papers/2305.14325,Multiagent debate improves LLM factuality (Du et al.),Multi-agent debate
+https://arxiv.org/pdf/2401.05998,Combating adversarial attacks with multi-agent debate,Multi-agent debate
+https://arxiv.org/pdf/2606.29270,Minority Sentinel - overturning majority voting,Multi-agent debate
+https://arxiv.org/pdf/2606.10296,The Confident Liar - diagnosing debate,Multi-agent debate
+https://arxiv.org/pdf/2603.06974,Elenchus - prover-skeptic dialogues,Multi-agent debate
+https://arxiv.org/pdf/2605.19193,Sequential consensus - Wald SPRT compute governor,Multi-agent debate
+https://www.sciencedirect.com/science/article/abs/pii/S0957417425037194,GKMAD - guided multi-agent debate for fact verification,Multi-agent debate
+https://link.springer.com/article/10.1007/s44443-025-00353-3,A-HMAD - adaptive heterogeneous debate,Multi-agent debate
+https://arxiv.org/pdf/2410.12853,Diversity of thought in debate frameworks,Multi-agent debate
+https://arxiv.org/pdf/2604.21282,Heterogeneous multi-agent for vulnerability detection,Multi-agent debate
+https://arxiv.org/pdf/2601.08536,DeepResearch Bench II,Research agents
+https://arxiv.org/pdf/2604.03173,Detecting and correcting reference hallucinations,Research agents
+https://arxiv.org/pdf/2605.06635,Cited but not verified - source attribution in DR agents,Research agents
+https://deepresearch-bench.github.io/,DeepResearch Bench (site),Research agents
+https://arxiv.org/pdf/2512.17776,DEER - expert report generation benchmark,Research agents
+https://arxiv.org/abs/2601.12346,MMDeepResearch-Bench,Research agents
+https://arxiv.org/pdf/2605.11732,AgentDisCo,Research agents
+https://arxiv.org/html/2606.02320v1,TVIR - text-visual interleaved reports,Research agents
+https://arxiv.org/pdf/2605.13034,ViDR - grounding reports in visual evidence,Research agents
+https://goodjudgment.com/wp-content/uploads/2022/10/Superforecaster-Accuracy.pdf,Good Judgment - superforecaster accuracy (PDF),Forecasting calibration
+https://aiimpacts.org/evidence-on-good-forecasting-practices-from-the-good-judgment-project/,Evidence on good forecasting practices (AI Impacts),Forecasting calibration
+https://www.emergentmind.com/topics/superforecasters,Superforecasters - metrics and methods,Forecasting calibration
+https://arxiv.org/pdf/2402.01743,The reasoning under uncertainty trap,Forecasting calibration
+https://pioneeringthoughts.substack.com/p/i-put-ai-forecasting-to-the-test,AI forecasting on 100 real markets,Forecasting calibration
+https://lifeitself.org/blog/notes-on-tetlock-and-gardners-superforecasting,Superforecasting notes (Life Itself),Forecasting calibration
+https://cuicaihao.github.io/posts/2026-05-05-superforecasting-naming-uncertainty-scoring-judgments/,Superforecasting - naming uncertainty,Forecasting calibration
+https://github.com/jmoral4/superforecastinghelper,Brier score tool (GitHub),Forecasting calibration

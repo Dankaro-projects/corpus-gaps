@@ -1,0 +1,524 @@
+{
+ "corpus": {
+  "documents_seeded": 60,
+  "documents_ok": 42,
+  "fetch_status": {
+   "empty": 4,
+   "error:pdf_PdfStreamError": 2,
+   "http_403": 10,
+   "http_406": 2,
+   "ok": 42
+  },
+  "chunks": 2104,
+  "reference_chunks": 372,
+  "questions_on_documents": 39,
+  "questions_far": 20
+ },
+ "detection": {
+  "all_chunks": {
+   "vector:bge": {
+    "present_vs_doc_absent": [
+     0.799,
+     0.721,
+     0.878
+    ],
+    "present_vs_topic_absent": [
+     0.943,
+     0.89,
+     0.986
+    ],
+    "present_vs_far": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "score_ranges": {
+     "present": [
+      0.682,
+      0.879
+     ],
+     "doc_absent": [
+      0.682,
+      0.831
+     ],
+     "topic_absent": [
+      0.595,
+      0.813
+     ],
+     "far": [
+      0.488,
+      0.636
+     ]
+    }
+   },
+   "vector:minilm": {
+    "present_vs_doc_absent": [
+     0.705,
+     0.634,
+     0.788
+    ],
+    "present_vs_topic_absent": [
+     0.954,
+     0.908,
+     0.988
+    ],
+    "present_vs_far": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "score_ranges": {
+     "present": [
+      0.48,
+      0.772
+     ],
+     "doc_absent": [
+      0.399,
+      0.772
+     ],
+     "topic_absent": [
+      0.369,
+      0.607
+     ],
+     "far": [
+      0.157,
+      0.327
+     ]
+    }
+   },
+   "keyword": {
+    "present_vs_doc_absent": [
+     0.739,
+     0.667,
+     0.819
+    ],
+    "present_vs_topic_absent": [
+     0.948,
+     0.897,
+     0.99
+    ],
+    "present_vs_far": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "score_ranges": {
+     "present": [
+      12.923,
+      33.85
+     ],
+     "doc_absent": [
+      10.555,
+      31.018
+     ],
+     "topic_absent": [
+      8.313,
+      17.739
+     ],
+     "far": [
+      4.131,
+      12.919
+     ]
+    }
+   },
+   "random": {
+    "present_vs_doc_absent": [
+     0.613,
+     0.462,
+     0.761
+    ],
+    "present_vs_topic_absent": [
+     0.446,
+     0.339,
+     0.56
+    ],
+    "present_vs_far": [
+     0.462,
+     0.3,
+     0.624
+    ],
+    "score_ranges": {
+     "present": [
+      0.134,
+      0.999
+     ],
+     "doc_absent": [
+      0.042,
+      0.974
+     ],
+     "topic_absent": [
+      0.043,
+      0.995
+     ],
+     "far": [
+      0.005,
+      0.999
+     ]
+    }
+   }
+  },
+  "refs_filtered": {
+   "vector:bge": {
+    "present_vs_doc_absent": [
+     0.8,
+     0.721,
+     0.88
+    ],
+    "present_vs_topic_absent": [
+     0.945,
+     0.892,
+     0.988
+    ],
+    "present_vs_far": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "score_ranges": {
+     "present": [
+      0.682,
+      0.879
+     ],
+     "doc_absent": [
+      0.682,
+      0.825
+     ],
+     "topic_absent": [
+      0.567,
+      0.813
+     ],
+     "far": [
+      0.488,
+      0.636
+     ]
+    }
+   },
+   "vector:minilm": {
+    "present_vs_doc_absent": [
+     0.718,
+     0.655,
+     0.799
+    ],
+    "present_vs_topic_absent": [
+     0.96,
+     0.922,
+     0.989
+    ],
+    "present_vs_far": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "score_ranges": {
+     "present": [
+      0.48,
+      0.772
+     ],
+     "doc_absent": [
+      0.399,
+      0.772
+     ],
+     "topic_absent": [
+      0.369,
+      0.599
+     ],
+     "far": [
+      0.14,
+      0.327
+     ]
+    }
+   },
+   "keyword": {
+    "present_vs_doc_absent": [
+     0.75,
+     0.678,
+     0.829
+    ],
+    "present_vs_topic_absent": [
+     0.948,
+     0.893,
+     0.989
+    ],
+    "present_vs_far": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "score_ranges": {
+     "present": [
+      12.923,
+      33.85
+     ],
+     "doc_absent": [
+      10.555,
+      31.018
+     ],
+     "topic_absent": [
+      8.313,
+      17.739
+     ],
+     "far": [
+      4.131,
+      12.919
+     ]
+    }
+   },
+   "random": {
+    "present_vs_doc_absent": [
+     0.452,
+     0.323,
+     0.586
+    ],
+    "present_vs_topic_absent": [
+     0.491,
+     0.372,
+     0.624
+    ],
+    "present_vs_far": [
+     0.564,
+     0.401,
+     0.719
+    ],
+    "score_ranges": {
+     "present": [
+      0.023,
+      0.966
+     ],
+     "doc_absent": [
+      0.037,
+      0.993
+     ],
+     "topic_absent": [
+      0.115,
+      0.937
+     ],
+     "far": [
+      0.003,
+      0.946
+     ]
+    }
+   }
+  }
+ },
+ "retrieval_hit_at_5": {
+  "all_chunks": {
+   "hit5:vector:bge": "37/39",
+   "hit5:vector:minilm": "39/39",
+   "hit5:keyword": "36/39",
+   "hit5:hybrid": "39/39"
+  },
+  "refs_filtered": {
+   "hit5:vector:bge": "38/39",
+   "hit5:vector:minilm": "37/39",
+   "hit5:keyword": "36/39",
+   "hit5:hybrid": "39/39"
+  }
+ },
+ "threshold": {
+  "all_chunks": {
+   "vector:bge": {
+    "doc_absent": {
+     "heldout_accuracy": 0.738,
+     "ci": [
+      0.65,
+      0.825
+     ],
+     "threshold_median": 0.766,
+     "threshold_range": [
+      0.764,
+      0.773
+     ]
+    },
+    "topic_absent": {
+     "heldout_accuracy": 0.852,
+     "ci": [
+      0.775,
+      0.925
+     ],
+     "threshold_median": 0.764,
+     "threshold_range": [
+      0.737,
+      0.773
+     ]
+    },
+    "fixed_0.72": {
+     "doc_absent": 0.564,
+     "topic_absent": 0.769,
+     "far": 0.983
+    }
+   },
+   "vector:minilm": {
+    "doc_absent": {
+     "heldout_accuracy": 0.605,
+     "ci": [
+      0.55,
+      0.65
+     ],
+     "threshold_median": 0.599,
+     "threshold_range": [
+      0.548,
+      0.684
+     ]
+    },
+    "topic_absent": {
+     "heldout_accuracy": 0.847,
+     "ci": [
+      0.75,
+      0.9
+     ],
+     "threshold_median": 0.586,
+     "threshold_range": [
+      0.548,
+      0.616
+     ]
+    },
+    "fixed_0.72": {
+     "doc_absent": 0.538,
+     "topic_absent": 0.564,
+     "far": 0.424
+    }
+   },
+   "keyword": {
+    "doc_absent": {
+     "heldout_accuracy": 0.638,
+     "ci": [
+      0.575,
+      0.7
+     ],
+     "threshold_median": 21.813,
+     "threshold_range": [
+      16.637,
+      25.579
+     ]
+    },
+    "topic_absent": {
+     "heldout_accuracy": 0.888,
+     "ci": [
+      0.8,
+      0.95
+     ],
+     "threshold_median": 17.806,
+     "threshold_range": [
+      16.637,
+      19.327
+     ]
+    }
+   }
+  },
+  "refs_filtered": {
+   "vector:bge": {
+    "doc_absent": {
+     "heldout_accuracy": 0.746,
+     "ci": [
+      0.65,
+      0.825
+     ],
+     "threshold_median": 0.766,
+     "threshold_range": [
+      0.764,
+      0.78
+     ]
+    },
+    "topic_absent": {
+     "heldout_accuracy": 0.865,
+     "ci": [
+      0.8,
+      0.925
+     ],
+     "threshold_median": 0.745,
+     "threshold_range": [
+      0.737,
+      0.773
+     ]
+    },
+    "fixed_0.72": {
+     "doc_absent": 0.564,
+     "topic_absent": 0.769,
+     "far": 0.983
+    }
+   },
+   "vector:minilm": {
+    "doc_absent": {
+     "heldout_accuracy": 0.615,
+     "ci": [
+      0.55,
+      0.675
+     ],
+     "threshold_median": 0.599,
+     "threshold_range": [
+      0.523,
+      0.673
+     ]
+    },
+    "topic_absent": {
+     "heldout_accuracy": 0.853,
+     "ci": [
+      0.775,
+      0.925
+     ],
+     "threshold_median": 0.555,
+     "threshold_range": [
+      0.523,
+      0.615
+     ]
+    },
+    "fixed_0.72": {
+     "doc_absent": 0.538,
+     "topic_absent": 0.564,
+     "far": 0.424
+    }
+   },
+   "keyword": {
+    "doc_absent": {
+     "heldout_accuracy": 0.651,
+     "ci": [
+      0.575,
+      0.725
+     ],
+     "threshold_median": 21.797,
+     "threshold_range": [
+      16.637,
+      24.144
+     ]
+    },
+    "topic_absent": {
+     "heldout_accuracy": 0.89,
+     "ci": [
+      0.825,
+      0.95
+     ],
+     "threshold_median": 17.806,
+     "threshold_range": [
+      16.637,
+      19.327
+     ]
+    }
+   }
+  }
+ },
+ "clustering": {
+  "all_chunks": {
+   "ami_vs_topics_mean": 0.518,
+   "ami_range": [
+    0.51,
+    0.531
+   ],
+   "chunks": 2104,
+   "clusters_mostly_references_of_14": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  "refs_filtered": {
+   "ami_vs_topics_mean": 0.53,
+   "ami_range": [
+    0.521,
+    0.536
+   ],
+   "chunks": 1732
+  }
+ }
+}

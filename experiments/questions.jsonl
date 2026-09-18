@@ -1,0 +1,59 @@
+{"id": "doc-00", "question": "How can AI systems used in national security be made to meet intelligence tradecraft standards such as describing sources and uncertainty?", "target_docs": ["88e661fce0cd8142"]}
+{"id": "doc-01", "question": "How consistently do several raters score intelligence reports against the analytic standards, and does rating together improve agreement?", "target_docs": ["baeb9b6c6913d363"]}
+{"id": "doc-03", "question": "What does weighing the evidence against several competing explanations add to an analyst's reasoning, according to the method's author?", "target_docs": ["94255194c14e95cd"]}
+{"id": "doc-04", "question": "What does the official directive require of analytic products regarding sourcing, uncertainty and separating assumptions from judgements?", "target_docs": ["c14001c5488faf9f"]}
+{"id": "doc-05", "question": "Which assumptions behind the intelligence tradecraft directive did researchers test, and do the standards capture good reasoning?", "target_docs": ["cf412eab542a049a"]}
+{"id": "doc-06", "question": "Which textbook is the standard reference for structured techniques in intelligence analysis, and what does its third edition cover?", "target_docs": ["fbc8c1ea3ecdf5b1", "8617ecaf56698f38"]}
+{"id": "doc-07", "question": "Should private companies adopt the analysis standards used by government intelligence agencies?", "target_docs": ["f93f139231be1714"]}
+{"id": "doc-08", "question": "What is an analytic standard, and why should any organisation doing intelligence work care about one?", "target_docs": ["0d628800675f9a94"]}
+{"id": "doc-11", "question": "How can interviews be structured to draw out the tacit knowledge experts use when they make decisions?", "target_docs": ["fbc17e2343c000d1", "b6c6b3b59a6dc4d5"]}
+{"id": "doc-12", "question": "Is there a command line tool for recording predictions and calculating Brier scores?", "target_docs": ["e288680b3a6a1ee4"]}
+{"id": "doc-13", "question": "Which practices were associated with more accurate forecasts in the Good Judgment Project?", "target_docs": ["f2a70f68deeb3f4b"]}
+{"id": "doc-14", "question": "How accurate were professional superforecasters across several hundred questions, measured by Brier score?", "target_docs": ["8ead097c1549c99e"]}
+{"id": "doc-15", "question": "What methods and metrics distinguish superforecasters from ordinary forecasters and naive aggregates?", "target_docs": ["caf521403e2a2184"]}
+{"id": "doc-16", "question": "Why should forecasters express uncertainty as numbers rather than vague words, and how are those judgements scored?", "target_docs": ["07e6b5f60d6291d4"]}
+{"id": "doc-17", "question": "What are the main lessons of Tetlock and Gardner's book on the art and science of prediction?", "target_docs": ["e61c6032c23ac9a8"]}
+{"id": "doc-18", "question": "How reliable are automated judges of tool-using agent traces when checked against human annotation?", "target_docs": ["b151973a9436fe9f"]}
+{"id": "doc-19", "question": "How can the systematic bias of a single evaluating model be reduced by rotating between several judges?", "target_docs": ["655912df6d46c0f1"]}
+{"id": "doc-20", "question": "What kinds of bias affect language models used as evaluators, and how can they be quantified automatically?", "target_docs": ["99eb3da0ba00fbc1"]}
+{"id": "doc-21", "question": "How should a team calibrate a model-based grader against human labels, for example with Cohen's kappa?", "target_docs": ["a769b512ef8b8f23"]}
+{"id": "doc-22", "question": "Are multimodal models reliable when they evaluate outputs that combine images and text?", "target_docs": ["4010fefdcf062062"]}
+{"id": "doc-23", "question": "Do language models' answers to personality questionnaires predict how they actually behave?", "target_docs": ["ea6c857f9d5dfa71"]}
+{"id": "doc-24", "question": "Do evaluating models favour text that they generated themselves, and how can that tendency be measured?", "target_docs": ["60b0451ddf6b3973"]}
+{"id": "doc-25", "question": "How can the platforms used to test voice agents themselves be evaluated for reliability?", "target_docs": ["1e66ebda20592834"]}
+{"id": "doc-26", "question": "Does a debate between different kinds of specialised agents improve factual accuracy over a single model?", "target_docs": ["b8165ed9d25594be"]}
+{"id": "doc-27", "question": "Can a discussion between several language models reduce the harm caused by adversarial prompts?", "target_docs": ["a8676884f6bb006f"]}
+{"id": "doc-28", "question": "Does using a diverse set of models in a debate help on mathematical reasoning problems?", "target_docs": ["73cd9d100641d429"]}
+{"id": "doc-29", "question": "How can a dialogue between a human expert and a sceptical language model be used to build a knowledge base?", "target_docs": ["a3d19edb68a02b88"]}
+{"id": "doc-30", "question": "Why does majority voting among language model agents suppress answers that are correct but held by a minority?", "target_docs": ["09d70d416ce15fba"]}
+{"id": "doc-31", "question": "Does having several language models critique each other over several rounds reduce hallucinations?", "target_docs": ["9569e73a0dbbcc70"]}
+{"id": "doc-32", "question": "When should a multi-agent debate stop, and how can a sequential statistical test save compute?", "target_docs": ["0d6fb111b3e23eb4"]}
+{"id": "doc-33", "question": "Do token probabilities in the reasoning of a debate predict whether the final answer is correct?", "target_docs": ["9bc2a38216c4eda9"]}
+{"id": "doc-34", "question": "How can the sources cited by research agents be checked for accessibility, relevance and consistency?", "target_docs": ["f6a3a0b0335474ec"]}
+{"id": "doc-35", "question": "How should expert-level reports produced by research systems be evaluated when judges lack domain expertise?", "target_docs": ["f10a5733617a3c20"]}
+{"id": "doc-36", "question": "Which deep research agents scored highest on the RACE and FACT evaluations?", "target_docs": ["62271278ac0fa8b2"]}
+{"id": "doc-37", "question": "Can rubrics derived from expert-written reports diagnose the weaknesses of research agents?", "target_docs": ["62eaee2cc50c0d55"]}
+{"id": "doc-38", "question": "What share of the citation links produced by language models point to pages that never existed?", "target_docs": ["607447e1f079f5dc"]}
+{"id": "doc-39", "question": "Is there a benchmark of expert tasks that require research agents to use both images and text?", "target_docs": ["e0fd04f5a1dc4ac6"]}
+{"id": "doc-40", "question": "How can research agents produce reports that interleave charts and images with text?", "target_docs": ["39223df387300a71"]}
+{"id": "doc-41", "question": "How can the claims in a research report be grounded in visual evidence such as figures?", "target_docs": ["62621e002dcd07e3"]}
+{"id": "far-00", "question": "What is the recommended dose of ibuprofen for a child?", "target_docs": []}
+{"id": "far-01", "question": "How do container ships reduce methane slip from gas engines?", "target_docs": []}
+{"id": "far-02", "question": "What caused the 2008 financial crisis?", "target_docs": []}
+{"id": "far-03", "question": "How do bees tell each other where flowers are?", "target_docs": []}
+{"id": "far-04", "question": "What is the best time of year to prune apple trees?", "target_docs": []}
+{"id": "far-05", "question": "How does a heat pump work in a cold climate?", "target_docs": []}
+{"id": "far-06", "question": "Who won the 1966 football World Cup?", "target_docs": []}
+{"id": "far-07", "question": "How does the leg before wicket rule work in cricket?", "target_docs": []}
+{"id": "far-08", "question": "How is sourdough bread leavened without commercial yeast?", "target_docs": []}
+{"id": "far-09", "question": "What is the capital gains tax rate in Spain?", "target_docs": []}
+{"id": "far-10", "question": "How do vaccines train the immune system?", "target_docs": []}
+{"id": "far-11", "question": "What is plate tectonics?", "target_docs": []}
+{"id": "far-12", "question": "How do you replace a bicycle chain?", "target_docs": []}
+{"id": "far-13", "question": "What are the symptoms of iron deficiency?", "target_docs": []}
+{"id": "far-14", "question": "How are lithium-ion batteries recycled?", "target_docs": []}
+{"id": "far-15", "question": "How did Roman aqueducts carry water over long distances?", "target_docs": []}
+{"id": "far-16", "question": "How do you train a puppy to walk on a lead?", "target_docs": []}
+{"id": "far-17", "question": "What is quantitative easing?", "target_docs": []}
+{"id": "far-18", "question": "How does the moon cause tides?", "target_docs": []}
+{"id": "far-19", "question": "What is the tallest mountain in Africa?", "target_docs": []}
